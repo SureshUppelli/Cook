@@ -7,7 +7,7 @@ pipeline {
     stages {
 		stage('build Image'){
 		    steps{
-				sh label: '', script: 'docker build -t vvp-appmanager:2.0.9-occ -f Dockerfile .'
+				sh label: '', script: 'docker build -t vvp-appmanager:2.0.9-occ .'
 			}
 		}
          }

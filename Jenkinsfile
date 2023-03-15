@@ -7,7 +7,7 @@ pipeline {
     stages {
 		stage('build Image'){
 		    steps{
-				docker build -t vvp-appmanager-${params.image} -f vvp-appmanager/Dockerfile .
+				docker build -t vvp-appmanager-${params.image} -f scheduler/Dockerfile .
 			}
 		}
   }

@@ -10,4 +10,5 @@ pipeline {
 				docker build -t vvp-appmanager-${params.image} -f Dockerfile .
 			}
 		}
-  }
+         }
+}
